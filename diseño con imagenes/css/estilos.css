@@ -1,0 +1,29 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.text-section {
+    padding: 32px;
+}
+
+.image-block {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 12px 0;
+    justify-content: space-around; 
+}
+
+.block-1 {
+    background-color: #ffebee;
+} 
+.block-2 {
+    background-color: #e8f5e9; 
+}
+.block-3 { 
+    background-color: #e3f2fd; 
+}

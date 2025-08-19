@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ES">
+    <head>
+        <title> Mi primer formulario </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1> Informacion de registro </h1>
+        <form>
+            <div>
+                <label for="Nombre1"> Nombres: </label>
+                <input type="text" id="Nombre1">
+            </div>
+            <div>
+                <label for="Nombre2"> Apellidos: </label>
+                <input type="text" id="Nombre2">
+            </div>
+            <div>
+                <label for="Correo"> Correo Electronico: </label>
+                <input type="email" id="Correo">
+            </div>
+            <div>
+                <label for="password"> Contraseña: </label>
+                <input type="password" id="password">
+            </div>
+            <div>
+                <label for="password2"> Confirmar Contraseña: </label>
+                <input type="password" id="password2">
+            </div>
+            <div>
+                <label for="FechadeNacimiento"> Fecha de Nacimiento: </label>
+                <input type="date" id="FechadeNacimiento">
+            </div>
+            <div>
+                <label for="pais"> pais de Nacimiento </label>
+                <select>
+                    <option> Chile </option>
+                    <option> Peru </option>
+                    <option> Ecuador </option>
+                    <option> Uruguay</option>
+                    <option> Brasil </option>
+                </select>
+            </div>
+            <div>
+                <label> Genero: </label>
+                <label for="Femenino"> Femenino </label>
+                <input type="radio" id="Femenino" name="Genero">
+                <label for="Masculino"> Masculino </label>
+                <input type="radio" id="Masculino" name="Genero">
+                <label for="Otro"> Otro </label>
+                <input type="radio" id="Otro" name="Genero">
+            </div>
+            <div>
+                <label> Paises Visitados: </label>
+            </div>
+            <div>
+                <input type="checkbox" id="Chile" name="eleccion">
+                <label for="Chile"> Chile </label>                
+            </div>
+            <div>
+                <input type="checkbox" id="Peru" name="eleccion">
+                <label for="Peru"> Peru </label>                
+            </div>
+            <div>
+                <input type="checkbox" id="Argentina" name="eleccion">
+                <label for="Argentina"> Argentina </label>                
+            </div>
+            <div>
+                <input type="checkbox" id="Ecuador" name="eleccion">
+                <label for="Ecuador"> Ecuador </label>                
+            </div><div>
+                <input type="checkbox" id="Brasil" name="eleccion">
+                <label for="Brasil"> Brasil </label>                
+            </div>
+            <div>
+                <input type="checkbox" id="Colombia" name="eleccion">
+                <label for="Colombia"> Colombia </label>
+            </div>
+            <div>
+                <label for="Otro"> Otros Paises: </label>
+                <textarea id="Otros"></textarea>
+            </div>
+            <button>
+                Enviar registro
+            </button>
+        </form>
+    </body>
+</html>
